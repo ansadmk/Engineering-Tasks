@@ -1,8 +1,10 @@
+require('dotenv').config()
 const express=require('express')
 const app=express()
 const mongoose=require('mongoose')
 let addCount = 0;
 let updateCount = 0;
+mongoose.connect('')
 app.post('/api/add', (req, res) => {
     // Logic to add data
     addCount++;

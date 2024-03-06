@@ -1,4 +1,3 @@
-import React from "react";
 import { Resizable } from "re-resizable";
 const App = () => {
     // Define an array of context objects
